@@ -157,7 +157,7 @@ textarea.form-control {
   padding-left: 0px;
   &::before{
     position: absolute;
-    content: "\e64c";
+    content: "\f00c";
     font-family: $icon-font;
     color: $white;
     height: 25px;

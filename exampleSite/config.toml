@@ -20,7 +20,7 @@ unsafe = true
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
-link = "plugins/themify-icons/themify-icons.css"
+link = "plugins/fontawesome/css/all.min.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
 
