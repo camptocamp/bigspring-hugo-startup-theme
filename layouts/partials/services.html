@@ -9,7 +9,7 @@
         <p>{{ .content | markdownify }}</p>
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="{{ .link | relURL }}" class="btn-link">{{ .label }} <i class="fas fa-arrow-right"></i></a>
+        <a href="{{ replace .link "__VERSION__" site.Params.version | safeURL }}" class="btn-link">{{ .label }} <i class="fas fa-arrow-right"></i></a>
         {{ end }}
         {{ end }}
       </div>
